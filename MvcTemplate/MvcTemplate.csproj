@@ -164,6 +164,30 @@
     <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap\bootstrap.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\themes\default\bootstrap.css">
+      <DependentUpon>bootstrap.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\themes\default\bootstrap.min.css">
+      <DependentUpon>bootstrap.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\themes\default\mixins.css">
+      <DependentUpon>mixins.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\themes\default\mixins.min.css">
+      <DependentUpon>mixins.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\themes\Flatly\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\themes\Flatly\variables.min.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\variables.min.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
     <Content Include="Content\font-awesome-ie7.css" />
     <Content Include="Content\font-awesome-ie7.min.css" />
     <Content Include="Content\font-awesome.css" />
@@ -436,6 +460,12 @@
     <Content Include="Content\KendoUI\src\Uniform\slider-v.gif" />
     <Content Include="Content\KendoUI\src\Uniform\sprite.png" />
     <Content Include="Content\KendoUI\src\Uniform\sprite_2x.png" />
+    <Content Include="Content\bootstrap\themes\default\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap\themes\default\variables.min.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
@@ -457,6 +487,51 @@
     <Content Include="Content\KendoUI\src\kendo.silver.less" />
     <Content Include="Content\KendoUI\src\kendo.uniform.less" />
     <Content Include="Content\KendoUI\src\template.less" />
+    <Content Include="Content\bootstrap\themes\default\mixins.less" />
+    <None Include="Content\bootstrap\wells.less" />
+    <None Include="Content\bootstrap\variables.less" />
+    <None Include="Content\bootstrap\utilities.less" />
+    <None Include="Content\bootstrap\type.less" />
+    <None Include="Content\bootstrap\tooltip.less" />
+    <None Include="Content\bootstrap\thumbnails.less" />
+    <None Include="Content\bootstrap\theme.less" />
+    <None Include="Content\bootstrap\tables.less" />
+    <None Include="Content\bootstrap\scaffolding.less" />
+    <None Include="Content\bootstrap\responsive-utilities.less" />
+    <None Include="Content\bootstrap\progress-bars.less" />
+    <None Include="Content\bootstrap\print.less" />
+    <None Include="Content\bootstrap\popovers.less" />
+    <None Include="Content\bootstrap\panels.less" />
+    <None Include="Content\bootstrap\pagination.less" />
+    <None Include="Content\bootstrap\pager.less" />
+    <None Include="Content\bootstrap\normalize.less" />
+    <None Include="Content\bootstrap\navs.less" />
+    <None Include="Content\bootstrap\navbar.less" />
+    <None Include="Content\bootstrap\modals.less" />
+    <None Include="Content\bootstrap\mixins.less" />
+    <None Include="Content\bootstrap\media.less" />
+    <None Include="Content\bootstrap\list-group.less" />
+    <None Include="Content\bootstrap\labels.less" />
+    <None Include="Content\bootstrap\jumbotron.less" />
+    <None Include="Content\bootstrap\input-groups.less" />
+    <None Include="Content\bootstrap\grid.less" />
+    <None Include="Content\bootstrap\glyphicons.less" />
+    <None Include="Content\bootstrap\forms.less" />
+    <None Include="Content\bootstrap\dropdowns.less" />
+    <None Include="Content\bootstrap\component-animations.less" />
+    <None Include="Content\bootstrap\code.less" />
+    <None Include="Content\bootstrap\close.less" />
+    <None Include="Content\bootstrap\carousel.less" />
+    <None Include="Content\bootstrap\buttons.less" />
+    <None Include="Content\bootstrap\button-groups.less" />
+    <None Include="Content\bootstrap\breadcrumbs.less" />
+    <None Include="Content\bootstrap\bootstrap.less" />
+    <None Include="Content\bootstrap\badges.less" />
+    <None Include="Content\bootstrap\alerts.less" />
+    <None Include="Content\bootstrap\themes\default\bootstrap.less" />
+    <None Include="Content\bootstrap\themes\default\variables.less" />
+    <Content Include="Content\bootstrap\themes\Flatly\variables.less" />
+    <Content Include="Content\bootstrap\themes\Flatly\bootswatch.less" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Content\app.css" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1300,6 +1375,7 @@
     <Content Include="Scripts\KendoUI\src\kendo.view.js" />
     <Content Include="Scripts\KendoUI\src\kendo.web.js" />
     <Content Include="Scripts\KendoUI\src\kendo.window.js" />
+    <Content Include="Scripts\less-1.4.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />

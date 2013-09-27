@@ -22,7 +22,7 @@ namespace MvcTemplate
                         "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                        "~/Content/bootstrap/bootstrap-theme.css",
+                        //"~/Content/bootstrap/bootstrap-theme.css",
                         "~/Content/KendoUI/src/kendo.common.css",
                         "~/Content/KendoUI/src/kendo.default.css",
                         "~/Content/app.css"));
